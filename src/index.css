@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.wrapper{
+  @apply fixed top-0 left-0 w-full h-screen bg-gray-100 overflow-y-scroll;
+}
+.logo{
+  @apply text-xl font-semibold text-blue-500
+}
+.navlink{
+  @apply font-semibold  p-2
+}
+
+
+.avatar-xs{
+  @apply w-8 h-8 rounded-full object-cover;
+}
+.avatar-sm{
+  @apply w-10 h-10 rounded-full object-cover;
+}
+.avatar-md{
+    @apply w-10 h-12 rounded-full object-cover;
+}
+.avatar-lg{
+     @apply w-16 h-16 rounded-full object-cover;
+}
+.avatar-xl{
+  @apply w-20 h-20 rounded-full object-cover;
+}
+
+.button{
+  @apply px-4 py-2 text-white rounded-lg 
+}
+.button-sm{
+  @apply px-4 py-1 text-sm text-white rounded-lg 
+}
+.input{
+  @apply outline-none border border-gray-200 w-full rounded-lg px-4 py-2
+}
